@@ -1,7 +1,13 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "fromSratch",
+    title: "a title??",
   },
-  plugins: [],
+  plugins: [{
+    resolve: "gatsby-source-filesystem",
+    options: {
+      name: `blog`,
+      path: `${__dirname}/blog`
+    }
+  }],
 };
