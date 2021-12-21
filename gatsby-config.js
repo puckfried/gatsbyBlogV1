@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "a title??",
+    title: "a new title???",
   },
   plugins: [{
     resolve: "gatsby-source-filesystem",
