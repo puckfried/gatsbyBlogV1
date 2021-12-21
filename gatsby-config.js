@@ -3,7 +3,10 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "a new title???",
   },
-  plugins: [{
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    {
     resolve: "gatsby-source-filesystem",
     options: {
       name: `blog`,
