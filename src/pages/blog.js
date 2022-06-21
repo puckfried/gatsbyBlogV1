@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 
 export default function Blog({data}) {
+    console.log(data.allFile.nodes)
     return (
         <Layout pageTitle="BlogPosts">
             <p>Lets get fancy</p>
